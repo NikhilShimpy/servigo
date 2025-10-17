@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "669093785979",
+    "project_id": "servigo-55665",
+    "storage_bucket": "servigo-55665.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669093785979:android:bc3934c4883e3180000dde",
+        "android_client_info": {
+          "package_name": "com.example.projects"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "669093785979-hflc7knnoj0plccjcm4d7vl4qflcolu0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.projects",
+            "certificate_hash": "3642f66a02823152cca546926b25fd58af856fe6"
+          }
+        },
+        {
+          "client_id": "669093785979-ei22juobkielp1o125voau7jtn6958lm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHzHCtWtlyycGJStgyAcryhyUiIY_f1gk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "669093785979-ei22juobkielp1o125voau7jtn6958lm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
