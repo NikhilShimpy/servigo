@@ -5,7 +5,7 @@ class HomePage extends StatelessWidget {
   final List<ServiceCategory> categories = [
     ServiceCategory(
       title: "Women's Salon",
-      image: AssetImage('assets/women_salon.png'), // Image
+      image: AssetImage('assets/women_salon.png'), 
       color: Colors.pink[100],
     ),
     ServiceCategory(
