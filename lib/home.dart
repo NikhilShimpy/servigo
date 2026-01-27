@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-// home pa
+// home page
 class HomePage extends StatelessWidget {
   final List<ServiceCategory> categories = [
     ServiceCategory(
       title: "Women's Salon",
-      image: AssetImage('assets/women_salon.png'), // Image instead of icon
+      image: AssetImage('assets/women_salon.png'), // Image instead 
       color: Colors.pink[100],
     ),
     ServiceCategory(
