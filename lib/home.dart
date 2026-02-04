@@ -389,6 +389,11 @@ class ServiceCard extends StatelessWidget {
   final String image;
 
  //cover section
+   const ServiceCard({
+    required this.title,
+    required this.price,
+    required this.image,
+  });
 
   @override
   Widget build(BuildContext context) {
