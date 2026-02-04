@@ -8,11 +8,7 @@ class HomePage extends StatelessWidget {
       image: AssetImage('assets/women_salon.png'), 
       color: Colors.pink[100],
     ),
-    ServiceCategory(
-      title: "Men's Salon & Massage",
-      icon: Icons.cut,
-      color: Colors.blue[100],
-    ),
+    //servicees
     ServiceCategory(
       title: "AC & Appliance",
       icon: Icons.ac_unit,
