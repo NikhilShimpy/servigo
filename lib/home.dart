@@ -10,6 +10,11 @@ class HomePage extends StatelessWidget {
     ),
     //servicees
     ServiceCategory(
+      title: "Men's Salon & Massage",
+      icon: Icons.cut,
+      color: Colors.blue[100],
+    ),
+    ServiceCategory(
       title: "AC & Appliance",
       icon: Icons.ac_unit,
       color: Colors.cyan[100],
