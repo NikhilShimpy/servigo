@@ -2,9 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/animation.dart';
 import 'package:flutter/services.dart';
-import 'package:google_sign_in/google_sign_in.dart';
-import '/home.dart';
-import 'package:flutter/foundation.dart' show kIsWeb;
+
 
 class MyLogin extends StatefulWidget {
   const MyLogin({Key? key}) : super(key: key);
