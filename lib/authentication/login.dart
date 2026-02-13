@@ -20,6 +20,8 @@ class _MyLoginState extends State<MyLogin> with SingleTickerProviderStateMixin {
   final GoogleSignIn _googleSignIn = GoogleSignIn();
 
   //update
+  late AnimationController _controller;
+  
 
   bool _isLoading = false;
   bool _obscurePassword = true;
