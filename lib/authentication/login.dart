@@ -21,6 +21,8 @@ class _MyLoginState extends State<MyLogin> with SingleTickerProviderStateMixin {
 
   //update
   late AnimationController _controller;
+  late Animation<double> _fadeAnimation;
+  
   
 
   bool _isLoading = false;
