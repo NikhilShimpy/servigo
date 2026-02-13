@@ -19,9 +19,7 @@ class _MyLoginState extends State<MyLogin> with SingleTickerProviderStateMixin {
   final _formKey = GlobalKey<FormState>();
   final GoogleSignIn _googleSignIn = GoogleSignIn();
 
-  late AnimationController _controller;
-  late Animation<double> _fadeAnimation;
-  late Animation<double> _scaleAnimation;
+  //update
 
   bool _isLoading = false;
   bool _obscurePassword = true;
