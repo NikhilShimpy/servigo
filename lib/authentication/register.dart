@@ -15,10 +15,7 @@ class MyRegister extends StatefulWidget {
 
 class _MyRegisterState extends State<MyRegister> with SingleTickerProviderStateMixin {
   final TextEditingController emailController = TextEditingController();
-  final TextEditingController passwordController = TextEditingController();
-  final TextEditingController nameController = TextEditingController();
-  final _formKey = GlobalKey<FormState>();
-  final GoogleSignIn _googleSignIn = GoogleSignIn();
+  
 
   late AnimationController _controller;
   late Animation<double> _fadeAnimation;
