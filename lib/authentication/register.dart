@@ -17,7 +17,8 @@ class _MyRegisterState extends State<MyRegister> with SingleTickerProviderStateM
   final TextEditingController emailController = TextEditingController();
   final TextEditingController passwordController = TextEditingController();
   final TextEditingController nameController = TextEditingController();
-  
+  final _formKey = GlobalKey<FormState>();
+ 
 
   late AnimationController _controller;
   late Animation<double> _fadeAnimation;
