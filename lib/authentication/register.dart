@@ -15,6 +15,7 @@ class MyRegister extends StatefulWidget {
 
 class _MyRegisterState extends State<MyRegister> with SingleTickerProviderStateMixin {
   final TextEditingController emailController = TextEditingController();
+  final TextEditingController passwordController = TextEditingController();
   
 
   late AnimationController _controller;
