@@ -33,6 +33,10 @@ class MyApp extends StatelessWidget {
         },
       ),
       //route update
+      routes: {
+        'register': (context) => MyRegister(),
+        
+      },
       
     );
   }
