@@ -29,8 +29,11 @@ class HomePage extends StatelessWidget {
       icon: Icons.plumbing,
       color: Colors.orange[100],
     ),
-    
-    
+    ServiceCategory(
+      title: "Water Purifier",
+      icon: Icons.water_drop,
+      color: Colors.blue[200],
+    ),
   ];
 
 
