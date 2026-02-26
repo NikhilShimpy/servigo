@@ -19,6 +19,17 @@ class HomePage extends StatelessWidget {
       icon: Icons.ac_unit,
       color: Colors.cyan[100],
     ),
+    ServiceCategory(
+      title: "Cleaning",
+      icon: Icons.cleaning_services,
+      color: Colors.green[100],
+    ),
+    ServiceCategory(
+      title: "Plumbers & Electricians",
+      icon: Icons.plumbing,
+      color: Colors.orange[100],
+    ),
+    
     
   ];
 
