@@ -9,31 +9,7 @@ class HomePage extends StatelessWidget {
       color: Colors.pink[100],
     ),
     //servicees
-    ServiceCategory(
-      title: "Men's Salon & Massage",
-      icon: Icons.cut,
-      color: Colors.blue[100],
-    ),
-    ServiceCategory(
-      title: "AC & Appliance",
-      icon: Icons.ac_unit,
-      color: Colors.cyan[100],
-    ),
-    ServiceCategory(
-      title: "Cleaning",
-      icon: Icons.cleaning_services,
-      color: Colors.green[100],
-    ),
-    ServiceCategory(
-      title: "Plumbers & Electricians",
-      icon: Icons.plumbing,
-      color: Colors.orange[100],
-    ),
-    ServiceCategory(
-      title: "Water Purifier",
-      icon: Icons.water_drop,
-      color: Colors.blue[200],
-    ),
+    
   ];
 
 
