@@ -34,11 +34,7 @@ class MyApp extends StatelessWidget {
         },
       ),
       //route update
-      routes: {
-        'register': (context) => MyRegister(),
-        'login': (context) => MyLogin(),
-        'home': (context) => HomePage(),
-      },
+      
       
     );
   }
