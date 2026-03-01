@@ -6,6 +6,11 @@ import 'authentication/login.dart';
 import 'authentication/register.dart';
 import 'home.dart';
 
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  runApp(const MyApp());
+}
 
 
 class MyApp extends StatelessWidget {
