@@ -243,13 +243,7 @@ class ServiceCategory {
   final ImageProvider? image;
   final Color? color;
 
-  ServiceCategory({
-    required this.title,
-    this.icon,
-    this.image,
-    this.color,
-  });
-}
+  // remove unn part 
 
 class ServiceCategoryCard extends StatelessWidget {
   final ServiceCategory category;
